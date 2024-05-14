@@ -1,2 +1,2 @@
-# ebac_gulp
-aplicação de gulp para minificar e otimizar depedencias
+# ebac_build and Delivery
+aplicação usand react para alterações no dashboard
