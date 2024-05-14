@@ -119,7 +119,7 @@ function DashboardContent(props) {
               noWrap
               sx={{ flexGrow: 1 }}
             >
-              {props.title}
+              Dashboard
             </Typography>
             <IconButton color="inherit">
               <Badge badgeContent={4} color="secondary">
@@ -205,6 +205,6 @@ function DashboardContent(props) {
   );
 }
 
-export default function Dashboard(props) {
-  return <DashboardContent title={props.title} />;
+export default function Dashboard() {
+   return <DashboardContent />;
 }
